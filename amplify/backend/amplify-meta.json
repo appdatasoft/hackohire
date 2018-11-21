@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/vueserverlessproject-20181120174913-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2018-11-21T02:22:15.959Z",
+			"lastPushTimeStamp": "2018-11-21T04:34:23.519Z",
 			"output": {
 				"CloudFrontSecureURL": "https://d3s558mu75szef.cloudfront.net",
 				"S3BucketSecureURL": "https://vueserverlessproject-20181120175242--hostingbucket.s3.amazonaws.com",
@@ -30,6 +30,27 @@
 				"CloudFrontDomainName": "d3s558mu75szef.cloudfront.net"
 			},
 			"lastPushDirHash": "hoHtrgFP0pKlFPken9QwfvAV8PE="
+		}
+	},
+	"auth": {
+		"cognitob3b00092": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/vueserverlessproject-20181120174913-deployment/amplify-cfn-templates/auth/cognitob3b00092-cloudformation-template.yml",
+				"logicalId": "authcognitob3b00092"
+			},
+			"lastPushTimeStamp": "2018-11-21T04:34:23.525Z",
+			"output": {
+				"AppClientSecret": "1qic6m1vv8b3duq2k35giv9keifts8o8ggst03bfhidpusl5o4r3",
+				"UserPoolId": "us-east-1_qiU8lXkwL",
+				"AppClientIDWeb": "515imgn0qj8nftb8vgi93u64ip",
+				"AppClientID": "7viioqfdotlvlsfuh77ohqvlm8",
+				"IdentityPoolId": "us-east-1:31c9bca9-dec2-4af3-9097-a6bf63f2dbd4",
+				"IdentityPoolName": "cognitob3b00092_identitypool_b3b00092",
+				"UserPoolName": "cognitob3b00092_userpool_b3b00092"
+			},
+			"lastPushDirHash": "fAfZ3tKF4voqZJzlZ7DVwtU8WK4="
 		}
 	}
 }

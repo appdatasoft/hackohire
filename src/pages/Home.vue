@@ -6,7 +6,7 @@
         
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for innovation</h1>
+              <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation</h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
               <a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>
             </div>
@@ -29,8 +29,17 @@
         </div>
       </div>
     </header>
-
-    <section class="download bg-primary text-center" id="download">
+    <section class="rightfit">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
+          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    
+    <section class="rightfit bg-primary text-center" id="download">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
@@ -106,7 +115,6 @@
         </div>
       </div>
     </section>
-
     <section class="cta">
       <div class="cta-content">
         <div class="container">

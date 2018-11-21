@@ -58,7 +58,7 @@
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="../../img/demo-screen-1.jpg" class="img-fluid" alt="">
+                    <img src="../../img/resume.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -110,7 +110,7 @@
     <section class="cta">
       <div class="cta-content">
         <div class="container">
-          <h2>Stop waiting.<br>Start hiring.</h2>
+          <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
         </div>
       </div>

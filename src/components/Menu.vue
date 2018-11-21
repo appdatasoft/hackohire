@@ -9,7 +9,7 @@
       <div v-if="signedIn">
       <amplify-sign-out></amplify-sign-out> 
       </div>
-      <!-- <b-nav-item to="/pricing">Jobs</b-nav-item>-->
+      <b-nav-item to="/pricing">Pricing</b-nav-item>
       <!--<b-nav-item to="/pricing">Interviews</b-nav-item>-->
       <!--<b-nav-item to="/pricing">Events</b-nav-item>-->
       <!--<b-nav-item to="/pricing">Podcast</b-nav-item>-->

@@ -1,24 +1,22 @@
 <template>
-  <div id="app">
-    <!--<img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <div id="app">
     <b-container class="main" fluid>
     <v-menu/>
       <router-view/>
-    </b-container>
-  </div>
+      <v-footer/>
+    </b-container>   
+        </div>  
 </template>
 
 <script>
 import Vue from 'vue'
 import Menu from '@/components/Menu.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import Footer from '@/components/Footer.vue'
 Vue.component('v-menu', Menu)
+Vue.component('v-footer', Footer)
+
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+  name: 'app'
 }
 </script>
 <link src='../vendor/bootstrap/css/bootstrap.min.css'/>
@@ -29,6 +27,8 @@ export default {
 <link src='../css/multi.css'/>
 <link src='../css/cataraman.css'/>
 <link src='../css/new-age.min.css'/>
+
+
 <style>
 @import '~bootstrap/dist/css/bootstrap.css';
 @import '~bootstrap-vue/dist/bootstrap-vue.css';
@@ -41,7 +41,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 .container {
   padding: 40px;
@@ -75,5 +74,6 @@ body {
   margin-left: 0;
   border-width: .2rem;
 }
+
 
 </style>
